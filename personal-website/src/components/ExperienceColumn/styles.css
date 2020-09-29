@@ -1,0 +1,22 @@
+.Experience {
+    display: flex;
+    padding: 50px;
+    border-bottom: 3px solid #efefef;
+    
+}
+
+.division-experience {
+    width: 50%;    
+
+    border-right: 3px solid #efefef;
+}
+
+.division-skills {
+    width: 50%;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+

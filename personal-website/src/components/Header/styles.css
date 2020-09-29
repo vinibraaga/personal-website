@@ -1,0 +1,10 @@
+.Header {
+    padding: 10px;
+    height: 250px;
+}
+
+.Header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
