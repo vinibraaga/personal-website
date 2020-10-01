@@ -5,7 +5,7 @@ import './styles.css';
 function SkillsColumn() {
   return (
     <div className="Skills">
-        <h1>Skills</h1>
+        <h2 className="title">Skills</h2>
         <ul>
             <li>ReactJS</li>
             <li>ReactJS</li>

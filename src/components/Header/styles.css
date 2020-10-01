@@ -4,7 +4,7 @@
     display: flex;
 }
 
-.Header img {
+.photo {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -15,4 +15,16 @@
         padding: 25px;
         justify-content: center;
     }
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 5px;
+    transition: all 0.2s ease 0s;
+}
+
+.icons:hover {
+    transform: translateY(3px);
 }
