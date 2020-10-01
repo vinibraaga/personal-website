@@ -4,16 +4,9 @@ import './styles.css';
 
 function Column() {
   return(
-    <div>
-      <div className='Profile'>
-        <div className="Column">
-          <span>teste</span>
-        </div>
-      </div>
-     
-    </div>
-      
-
+    <section className="column">
+      <span>.</span> 
+    </section>
   );
 }
 

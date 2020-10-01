@@ -1,9 +1,12 @@
 .App {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30px auto auto;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1050px) {
     .App {
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-content: center;
     }

@@ -1,7 +1,8 @@
 import React from 'react';
 import AboutColumn from '../AboutColumn';
 import EducationColumn from '../EducationColumn';
-import ExperienceColumn from '../ExperienceColumn';
+import PanelExperienceSkills from '../PanelExperienceSkills';
+
 
 import './styles.css';
 
@@ -9,7 +10,7 @@ function Main() {
   return (
       <div className="Main">
           <AboutColumn />
-          <ExperienceColumn />
+          <PanelExperienceSkills /> 
           <EducationColumn />
       </div>
   );

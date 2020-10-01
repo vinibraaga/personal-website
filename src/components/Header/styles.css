@@ -1,10 +1,18 @@
 .Header {
-    padding: 10px;
+    padding: 40px 10px 40px 40px;
     height: 250px;
+    display: flex;
 }
 
 .Header img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+}
+
+@media (max-width: 1050px) {
+    .Header {
+        padding: 25px;
+        justify-content: center;
+    }
 }

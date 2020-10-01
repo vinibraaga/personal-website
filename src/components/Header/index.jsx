@@ -5,9 +5,9 @@ import './styles.css';
 function Header() {
   return (
     <div className="Header">
-        <div>
+        <section>
             <img src="https://github.com/vinibraaga.png"/>
-        </div>
+        </section>
     </div>
   );
 }

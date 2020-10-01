@@ -1,12 +1,19 @@
-.About {
-    padding: 10px 50px 25px;
+.Skills {
+    width: 31%;
+    margin-left: 10px;
+    padding: 50px;
     border: 1px solid #efefef;
     border-radius: 25px;
     box-shadow: 1px 2px 11px 0 rgba(120,135,182,.1);
     margin-top:1em;
-
 }
 
-.About:hover {
+.Skills:hover {
     transform: translateY(1px);
+}
+
+@media (max-width: 1530px) {
+    .Skills {
+        width: 100%;
+    }
 }
